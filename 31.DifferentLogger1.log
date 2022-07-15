@@ -1,0 +1,18 @@
+INFO - LoggingWithDifferentLogger1 - Start
+DEBUG - LoggingWithDifferentLogger1 - Age greater than 18 check
+INFO - LoggingWithDifferentLogger1 - End
+INFO - LoggingWithDifferentLogger1 - Start
+DEBUG - LoggingWithDifferentLogger1 - Age greater than 18 check
+INFO - LoggingWithDifferentLogger1 - End
+ERROR - LoggingWithDifferentLogger1 - Age less than 18 check
+INFO - LoggingWithDifferentLogger1 - Start
+DEBUG - LoggingWithDifferentLogger1 - Age greater than 18 check
+INFO - LoggingWithDifferentLogger1 - End
+ERROR - LoggingWithDifferentLogger1 - Age less than 18 check
+INFO - __main__ - Start
+ERROR - __main__ - Age less than 18 check
+INFO - __main__ - End
+INFO - LoggingWithDifferentLogger1 - Start Different Logging 1
+ERROR - LoggingWithDifferentLogger1 - Age less than 18 check
+INFO - LoggingWithDifferentLogger1 - End Different Logging 1
+ERROR - LoggingWithDifferentLogger1 - Age less than 18 check
