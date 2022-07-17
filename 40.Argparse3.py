@@ -1,0 +1,12 @@
+print("Argparse3")
+print("---------")
+print("optional arguments with -- double hiphen and shortand - single hiphen")
+import argparse
+parser=argparse.ArgumentParser()
+parser.add_argument("name",help="enter name")
+parser.add_argument("--age",help="enter age")
+parser.add_argument("-g","--gender",help="enter gender")
+args=parser.parse_args()
+print("Name=",args.name)
+print("Age=",args.age)
+print("Gender=",args.gender)
